@@ -1,7 +1,7 @@
 const http = require('http');
 
-const hostname = 'https://bcch-server.herokuapp.com/';
-const port = 3000;
+const hostname = 'bcch-server.herokuapp.com';
+const port = 8080;
 
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
